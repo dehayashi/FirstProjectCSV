@@ -1,6 +1,7 @@
 # FirstProjectCSV
-# **Primeiro projeto da Mentoria Consquiste sua Vaga Turma 26 do https://github.com/pedromarins**
+# **Primeiro projeto da Mentoria Conquiste sua Vaga Turma 26 do https://github.com/pedromarins**
 Converter Fahrenheit em Celsius: Escreva um programa que pegue a temperatura em Fahrenheit como input e converte em Celsius.
+C Language
 Este programa converte um valor de temperatura em Fahrenheit para Celsius usando uma fórmula e imprime o resultado no console.
 O programa começa incluindo a biblioteca de entrada e saída padrão stdio.h.
 A função main() é o ponto de entrada do programa.
