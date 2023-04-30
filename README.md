@@ -19,4 +19,4 @@ Este programa em C é um conversor de temperatura que converte a temperatura em 
 <p> Esta linha imprime o resultado da conversão na tela do console. A primeira parte da string imprime o valor da temperatura em Fahrenheit com duas casas decimais, a palavra "Fahrenheit" e um sinal de igual. A segunda parte da string imprime o valor da temperatura em Celsius com duas casas decimais e a palavra "Celsius".</p>
    return 0;
 <p> Esta linha encerra a função principal do programa em C e retorna 0 para indicar que o programa foi executado com sucesso.</p>
-<p> No geral, este programa é uma implementação simples e funcional de um conversor de temperatura em C que converte Fahrenheit para Celsius. É um bom exemplo de como as funções de entrada e saída padrão podem ser usadas em um programa C básico.</p>
+<p> No geral, este programa é uma implementação simples e funcional de um conversor de temperatura em C que converte Fahrenheit para Celsius.</p>
