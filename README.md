@@ -1,13 +1,22 @@
 # FirstProjectCSV
 # **Primeiro projeto da Mentoria Conquiste sua Vaga Turma 26 do https://github.com/pedromarins**
-Converter Fahrenheit em Celsius: Escreva um programa que pegue a temperatura em Fahrenheit como input e converte em Celsius.
-C Language
-Este programa converte um valor de temperatura em Fahrenheit para Celsius usando uma fórmula e imprime o resultado no console.
-O programa começa incluindo a biblioteca de entrada e saída padrão stdio.h.
-A função main() é o ponto de entrada do programa.
-Declarei duas variáveis do tipo float: fahrenheit e celsius. Elas armazenam os valores de temperatura inseridos pelo usuário e a temperatura convertida, respectivamente.
-A função printf() é usada para imprimir a mensagem "Digite a temperatura em Fahrenheit: " no console.
-A função scanf() é usada para ler a entrada do usuário no console e armazená-la na variável fahrenheit. O especificador de formato %f é usado para ler um número de ponto flutuante.
-A fórmula para converter Fahrenheit para Celsius é (F - 32) * 5/9, onde F é a temperatura em Fahrenheit. Usei essa fórmula para calcular a temperatura equivalente em Celsius e armazená-la na variável celsius.
-A função printf() é usada para imprimir o resultado da conversão no console. O primeiro argumento é uma string de formato que especifica como as variáveis devem ser formatadas quando impressas. O especificador de formato %.2f é usado para imprimir um número de ponto flutuante com duas casas decimais. Os segundo e terceiro argumentos são os valores de fahrenheit e celsius, respectivamente, que são impressos no lugar dos especificadores de formato.
-A declaração return sinaliza o final do programa e retorna o valor 0 para o sistema operacional para indicar que o programa foi concluído com sucesso.
+Este programa em C é um conversor de temperatura que converte a temperatura em Fahrenheit para Celsius. Ele faz uso das funções de entrada e saída padrão do C para ler e escrever dados na tela do computador.
+
+<p> Vou explicar cada parte do código passo a passo:</p>
+  #include <stdio.h>
+<p> Esta linha inclui a biblioteca padrão de entrada e saída do C, que contém funções para realizar operações de entrada e saída no console.</p>
+  int main() {
+<p> Esta linha inicia a função principal do programa em C.</p>
+  float fahrenheit, celsius;
+<p> Estas duas linhas declaram duas variáveis do tipo float, fahrenheit e celsius, que serão usadas para armazenar a temperatura em Fahrenheit e Celsius, respectivamente.</p>
+  printf("Enter temperature in Fahrenheit: ");
+<p> Esta linha imprime uma mensagem na tela do console pedindo que o usuário insira a temperatura em Fahrenheit.</p>
+   scanf("%f", &fahrenheit);
+<p> Esta linha usa a função scanf() para ler o valor da temperatura em Fahrenheit digitado pelo usuário e armazená-lo na variável fahrenheit.</p>
+  celsius = (fahrenheit - 32) * 5 / 9;
+<p> Esta linha converte a temperatura em Fahrenheit para Celsius usando a fórmula (°F - 32) * 5 / 9 e armazena o resultado na variável celsius.</p>
+   printf("%.2f Fahrenheit = %.2f Celsius", fahrenheit, celsius);
+<p> Esta linha imprime o resultado da conversão na tela do console. A primeira parte da string imprime o valor da temperatura em Fahrenheit com duas casas decimais, a palavra "Fahrenheit" e um sinal de igual. A segunda parte da string imprime o valor da temperatura em Celsius com duas casas decimais e a palavra "Celsius".</p>
+   return 0;
+<p> Esta linha encerra a função principal do programa em C e retorna 0 para indicar que o programa foi executado com sucesso.</p>
+<p> No geral, este programa é uma implementação simples e funcional de um conversor de temperatura em C que converte Fahrenheit para Celsius. É um bom exemplo de como as funções de entrada e saída padrão podem ser usadas em um programa C básico.</p>
